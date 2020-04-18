@@ -1,0 +1,30 @@
+Criar um projeto webAPI
+dotnet new webapi -n nomeDoProjeto
+
+verificar versão
+dotnet --version
+
+Para usar uma versão especifica do dotnet
+1- Crie um arquivo global.json
+2- Adicione o seguinte codigo:
+
+{
+    "sdk": {
+        "version": "2.2.401"
+    }
+}
+
+rodar aplicação dotnet
+dotnet watch run (atualiza automaticamente a cada mudança no codigo)
+
+criar diretorio de migrations
+dotnet ef migrations add init
+
+criar base de dados
+dotnet ef database update 
+
+rodar servidor angular
+ng serve
+
+
+dotnet restore
